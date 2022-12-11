@@ -212,7 +212,7 @@ daemons.
 同时还推荐为用户登录会话预留资源（systemd 体系中的 `user.slice`）。
 
 除了 `cpu`、`内存` 和 `ephemeral-storage` 之外，`pid` 可用来指定为
-Kubernetes 系统守护进程预留指定数量的进程 ID。
+操作系统的守护进程预留指定数量的进程 ID。
 
 <!--
 To optionally enforce `system-reserved` on system daemons, specify the parent
